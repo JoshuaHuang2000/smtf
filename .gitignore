@@ -1,0 +1,39 @@
+# --- Python & Environment ---
+__pycache__/
+*.pyc
+venv/
+.venv/
+env/
+.env
+
+# --- Project Data (Local) ---
+# 数据库：包含你的个人抓取记录，绝不能上传
+smtf_memory.db
+smtf_memory.db-journal
+smtf_memory.db-wal
+smtf_memory.db-shm
+
+# --- Downloaded Assets ---
+# 抓取的图片：体积大且涉及版权，仅本地存储
+assets/images/
+assets/
+
+# --- Browser Session Data ---
+# 浏览器指纹和Cookie：绝对隐私
+browser_data/
+/tmp/chrome_dev_session/
+/tmp/canary_dev_session/
+
+# --- Logs & Debugging ---
+*.log
+debug_view.png
+debug_error.png
+
+# --- IDE & OS ---
+.DS_Store
+.idea/
+.vscode/
+
+# --- Local Scripts ---
+# 如果你有写死路经的启动脚本，最好也忽略，或者上传一个模板
+# start_browser.sh (可选：如果你不想上传你的Chrome路径配置)

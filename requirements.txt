@@ -1,0 +1,9 @@
+google-genai
+python-dotenv
+playwright
+pydantic
+jinja2
+markdown
+streamlit
+pandas
+Pillow
